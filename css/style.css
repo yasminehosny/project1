@@ -11,14 +11,18 @@
   z-index: -3;
 }
 
-.p1::after,.news::after,.team::after {
+.p1::after,
+.news::after,
+.team::after {
   width: 100%;
   height: 0;
   z-index: initial;
   transition: 2s;
 }
 
-.p1:hover:after,.news:hover::after,.team:hover::after {
+.p1:hover:after,
+.news:hover::after,
+.team:hover::after {
   opacity: 0.5;
 }
 
@@ -35,7 +39,8 @@
 }
 
 /* change color in welcome and offer section */
-.changecolor:hover h3,.changecolor:hover .head {
+.changecolor:hover h3,
+.changecolor:hover .head {
   color: rgb(249, 249, 249);
   transition: 1s;
 }
@@ -76,13 +81,15 @@
 }
 
 body {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-transform: capitalize;
 }
+
 a {
   text-decoration: none;
   font-size: 17px;
 }
+
 /* sections */
 /* header  */
 .header {
@@ -154,11 +161,11 @@ a {
   left: -10px;
   width: 120px;
   height: 50px;
-  background-color:blue;
+  background-color: blue;
   padding-top: 14px;
   padding-left: 25px;
   visibility: hidden;
-  
+
 }
 
 .liblog:hover .nested {
@@ -179,6 +186,7 @@ a {
   position: absolute;
   background-color: rgba(0, 0, 0, 0.5);
 }
+
 .home-content {
   width: 60%;
   text-align: center;
@@ -253,9 +261,11 @@ a {
   color: rgb(224, 232, 244);
   transition: 1s;
 }
+
 .after:hover a {
   color: rgb(187, 187, 239);
 }
+
 .welcome div .fa-solid {
   font-size: 30px;
   margin-top: 10px;
@@ -342,8 +352,7 @@ a {
   width: 30%;
   height: 190px;
   border: 1px solid gray;
-  padding: 30px 10px;
-  padding-left: 25px;
+  padding: 30px 10px 30px 25px;
   margin-bottom: 30px;
   line-height: 25px;
   position: relative;
@@ -456,9 +465,12 @@ a {
   border-radius: 50%;
   margin-right: 5px;
 }
-.about .img ul li.frist, .about .img ul li:hover {
+
+.about .img ul li.frist,
+.about .img ul li:hover {
   background-color: rgb(135, 135, 236);
 }
+
 /* counter */
 .counter {
   height: 300px;
@@ -557,12 +569,17 @@ a {
   border: 2px solid rgb(91, 91, 126);
   background-color: white;
 }
-.p1:hover h3 ,.p1:hover ul li {
+
+.p1:hover h3,
+.p1:hover ul li {
   color: rgb(62, 62, 72);
 }
-.p1:hover .pcircle p ,.p1:hover .priceptn {
+
+.p1:hover .pcircle p,
+.p1:hover .priceptn {
   color: rgb(130, 130, 190);
 }
+
 /* positions */
 .image {
   height: 60vh;
@@ -571,12 +588,14 @@ a {
   background-attachment: fixed;
   position: relative;
 }
+
 .imgparent {
   width: 80%;
   height: 100%;
   margin: auto;
   padding-left: 30px;
 }
+
 .imgd1 {
   width: 48%;
   height: 80%;
@@ -584,6 +603,7 @@ a {
   margin-top: 50px;
   padding: 70px 0px;
 }
+
 .imgd1 img {
   width: 80px;
   height: 80px;
@@ -592,23 +612,28 @@ a {
   margin-right: 10px;
   display: block;
 }
+
 .imgd1 .who h3 {
   color: rgb(249, 242, 242);
   margin-bottom: 5px;
   margin-top: 10px;
 }
+
 .imgd1 .who p {
   color: blue;
 }
+
 .para {
   margin-top: 40px;
   margin-left: 10px;
   font-size: 16px;
   color: rgb(244, 247, 249);
 }
+
 .imgcenter {
   margin-left: 4%;
 }
+
 /* team */
 .teamparent {
   width: 100%;
@@ -616,6 +641,7 @@ a {
   overflow: auto;
   padding-top: 5%;
 }
+
 .team {
   width: 30%;
   height: 90%;
@@ -624,30 +650,37 @@ a {
   text-align: center;
   position: relative;
 }
+
 .team::after {
   transition: initial;
 }
+
 .team:hover::after {
   transition: 2s;
 }
+
 .team h3 {
   margin-bottom: 8px;
   font-size: 17px;
 }
+
 .team p {
   color: gray;
   font-size: 17px;
 }
+
 .teamimg {
   width: 80%;
   height: 65%;
   margin: 8% auto 5%;
   position: relative;
 }
+
 .teamimg img {
   width: 100%;
   height: 100%;
 }
+
 .teamicon {
   width: 100%;
   height: 100%;
@@ -792,6 +825,7 @@ a {
 .footer p span {
   font-size: 20px;
 }
+
 .footer ul li::after {
   content: "";
   position: absolute;
@@ -805,6 +839,7 @@ a {
   opacity: 0;
   border-radius: 13px;
 }
+
 .footer ul li:hover::after {
   transition: 1s;
   width: 50px;
