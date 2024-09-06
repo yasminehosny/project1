@@ -423,6 +423,7 @@ a {
 .about .Elegant .vision,
 .about .Elegant .icons {
   width: 100%;
+   margin-bottom: 25px;
 }
 
 .about .Elegant .vision h2 {
