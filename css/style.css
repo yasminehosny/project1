@@ -423,22 +423,26 @@ a {
 .about .Elegant .vision,
 .about .Elegant .icons {
   width: 100%;
-   margin-bottom: 25px;
+
 }
 
 .about .Elegant .vision h2 {
   font-size: 40px;
   color: black;
-  margin-bottom: 10px;
+  margin-bottom: 7px;
 }
 
 .about .Elegant .vision p {
-  font-size: 15px;
-  line-height: 23px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.about .Elegant.icons {
+  margin-top: 100px;
 }
 
 .about .Elegant .icons ul li {
-  margin-top: 10px;
+  margin-top: 15px;
   font-size: 20px;
 }
 
@@ -454,8 +458,8 @@ a {
 }
 
 .about .img img {
-  width: 80%;
-  margin: 10px;
+  width: 70%;
+  margin: 15px;
 }
 
 .about .img ul li {
